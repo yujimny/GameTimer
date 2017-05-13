@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">GameTimer</string>
+    <string name="app_description">このアプリにはNTT DoCoMoのLinkingアプリが必要です。ダウンロードしてこのアプリを有効にする設定をしてください。</string>
+    <string name="speak_timer_start">%d分のタイマーをスタートしました</string>
+    <string name="speak_timer_finish">タイマーを終了しました。お疲れ様でした。経過時間は%d分でした。</string>
+    <string name="speak_timer_1st_alert">%d分経ちました。やめる準備をしてください</string>
+    <string name="speak_timer_2nd_alert">%d分経ちました。もういい加減やめてください！</string>
+    <string name="speak_timer_pause">現在%d分です。終了するにはボタンを2秒以上押し続けてください。</string>
+    <string name="label_timer_main">本タイマー</string>
+    <string name="label_timer_additional">追加タイマー</string>
+    <string name="toast_done_save_settings">設定を保存しました</string>
+
+</resources>
+

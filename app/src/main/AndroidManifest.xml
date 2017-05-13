@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yujimny.jp.android.gametimer">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- LinkingIFの使用宣言 -->
+        <meta-data
+            android:name="com.nttdocomo.android.smartdeviceagent.feature.support"
+            android:value="true" />
+
+        <!-- アプリ起動時に表示、各機能を確認する画面へ遷移 -->
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".LinkingButtonReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.nttdocomo.android.smartdeviceagent.action.NOTIFICATION" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".TimerService"
+            android:enabled="true"
+            android:exported="false"></service>
+    </application>
+
+</manifest>
