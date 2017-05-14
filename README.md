@@ -12,8 +12,8 @@
   * PochiruとProject Linkingを使って何かできないかと試作したサンプルです。
 
 * リンク
-  * [LinkingアプリとPochiruの設定方法](http://frontier.fxy-co.com/LinkingIFDocument/android_setting.html)
-  * [Project Linkng開発者サイト](https://linkingiot.com/developer/index.html)
+  * [LinkingアプリとPochiruの設定方法](http://frontier.fxy-co.com/LinkingIFDocument/android_setting.html)
+  * [Project Linkng開発者サイト](https://linkingiot.com/developer/index.html)
   * [Pochiru](http://www.products.braveridge.com/pochiru/)
 
 * 必要なもの
